@@ -3,6 +3,7 @@
 
 # Run
 ```js
+// server.js
 const rpc = new BotRpc()
 rpc.addHandler((data, reply) => {
   try {
@@ -12,4 +13,7 @@ rpc.addHandler((data, reply) => {
     reply(`\nFailed with: ${err}`)
   }
 })
+
+// client.js
+send({ remote: '<rpc-public-key>', data: { hello: 'world' } })
 ```
