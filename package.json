@@ -1,6 +1,6 @@
 {
   "name": "@holepunchto/bot-rpc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Start a bot rpc server",
   "author": "Holepunch",
   "license": "Apache-2.0",
