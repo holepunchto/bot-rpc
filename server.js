@@ -21,11 +21,11 @@ class BotRpc extends ReadyResource {
    */
   constructor ({
     seed,
-    firewall,
-    logger
+    firewall = () => false,
+    logger = console
   }) {
     super()
-    this.logger = logger || console
+    this.logger = logger
     this.handlers = []
 
     const dht = new HyperDHT({ seed: seed && HypercoreId.decode(seed) })
