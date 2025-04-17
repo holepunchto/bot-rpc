@@ -1,0 +1,28 @@
+{
+  "name": "@holepunchto/bot-rpc",
+  "version": "1.0.1",
+  "description": "Start a bot rpc server",
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bot-rpc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/holepunchto/bot-rpc/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bot-rpc#readme",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "graceful-goodbye": "^1.3.3",
+    "hypercore-id-encoding": "^1.3.0",
+    "hyperdht": "^6.20.5",
+    "ready-resource": "^1.1.2"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  }
+}
